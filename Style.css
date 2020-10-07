@@ -1,0 +1,61 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar{
+     padding-top: 0px;   
+     font-family: 'Sansita Swashed', cursive;
+}
+.navbar-nav{
+    margin-left: 500px;
+}
+.nav-link{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    margin-left: 15rem;
+    font-size: 2.5rem;
+    
+}
+
+.main-page{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.main-page p{
+    padding-top: 10px;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 10px;
+    width: 20%;
+    margin: 2rem auto;
+}
+footer{
+    background-color: #1abc9c;
+    height: 10rem;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+}
+footer > p{
+    padding-top: 50px;
+    
+}
+@media(max-width:1000px){
+    .navbar-brand{
+        margin-left: 2rem;
+        
+    }
+    .main-page{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        /* width: 100%; */
+    }
+    .navbar-nav{
+        margin-left: 2rem;
+    }
+}
